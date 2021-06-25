@@ -34,7 +34,9 @@
                 <p>Category: {{article.category}}</p>
                 <p>Created by: {{article.author}} </p>
                 <p>Posted at: {{article.creation_date}}</p>
+                <a href="http://localhost:8000/blog/articles/{{article.id}}">Read the article </a>
             </li>
+            <hr />
             {% endfor %}
         </ul>
     </div>
