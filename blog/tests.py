@@ -13,7 +13,7 @@ class ArticleTest(TestCase):
         #Сравниваем извлечённые данные с ожидаемыми
         self.assertEqual(article.category, 'Test category')
         self.assertEqual(article.author, 'Test Author')
-        self.assertEqual(article.content, 'Test Content')
+        self.assertEqual(article.content, 'Test Content2')
 
 
 class BlogPagesTest(TestCase):
